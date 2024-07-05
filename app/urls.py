@@ -19,7 +19,7 @@ router = DefaultRouter()
 
 router.register(r"acessorios", AcessorioViewSet, basename="acessorios")
 router.register(r"categorias", CategoriaViewSet, basename="categorias")
-router.register(r"cor", CorViewSet, basename="cores")
+router.register(r"cores", CorViewSet, basename="cores")
 router.register(r"usuarios", UserViewSet, basename="usuarios")
 
 
