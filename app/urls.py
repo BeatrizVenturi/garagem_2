@@ -12,6 +12,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from core.views import AcessorioViewSet
 from core.views import CategoriaViewSet
 from core.views import CorViewSet
+from core.views import MarcaViewSet
 from core.views import UserViewSet
 
 
@@ -21,6 +22,8 @@ router.register(r"acessorios", AcessorioViewSet, basename="acessorios")
 router.register(r"categorias", CategoriaViewSet, basename="categorias")
 router.register(r"cores", CorViewSet, basename="cores")
 router.register(r"usuarios", UserViewSet, basename="usuarios")
+router.register(r"marca", MarcaViewSet, basename="marcas")
+
 
 
 
