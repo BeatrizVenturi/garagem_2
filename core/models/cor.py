@@ -5,3 +5,9 @@ class Cor(models.Model):
 
     def __str__(self):
         return f"{self.nome} ({self.id})"
+    
+    class Meta:
+        """Meta options for the model."""
+
+        verbose_name = "Cor"
+        verbose_name_plural = "Cores"
